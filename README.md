@@ -67,6 +67,28 @@ The central narrative: **geometric inductive biases matter, and so do implementa
 
 ---
 
+### Prediction Demo
+
+Predictions on common molecules using the trained PaiNN (SchNetPack) model:
+
+```bash
+python predict_molecule.py "O" "CCO" "CC=O" "c1ccccc1" --target dipole
+```
+
+| Molecule | SMILES | Predicted μ | Known μ | Error |
+|----------|--------|:-----------:|:-------:|:-----:|
+| Water | `O` | 1.642 D | 1.85 D | 0.21 D |
+| Ethanol | `CCO` | 1.533 D | 1.69 D | 0.16 D |
+| Acetaldehyde | `CC=O` | 2.563 D | 2.75 D | 0.19 D |
+| Benzene | `c1ccccc1` | **0.000 D** | **0.00 D** | **0.00 D** |
+
+> **Note:** Benzene's dipole is exactly zero by symmetry — the model correctly predicts this, demonstrating that PaiNN's equivariant vector readout respects molecular symmetry.
+
+```bash
+python predict_molecule.py "CCO" "CC=O" --target both   # predict both μ and Δε
+```
+
+
 ## Lessons Learned — Implementation Journey
 
 Building PaiNN from scratch and comparing against the official SchNetPack implementation revealed several critical insights. Each lesson below corresponds to a bug that caused the model to plateau far above literature accuracy.
