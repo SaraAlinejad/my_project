@@ -328,14 +328,20 @@ python 05_train_painn_schnetpack.py --target dipole_moment --epochs 300
 python 05_train_painn_schnetpack.py --target gap --epochs 300
 ```
 
-### Evaluation & Prediction
+
+### Prediction from SMILES
 
 ```bash
-python evaluate.py                              # comparison tables & plots
-python predict_smiles.py --model painn --smiles "CCO"  # predict from SMILES
+# Predict dipole moment
+python predict_molecule.py "CCO" "c1ccccc1" --target dipole
+
+# Predict HOMO-LUMO gap
+python predict_molecule.py "CCO" --target gap
+
+# Predict both properties
+python predict_molecule.py "O" "CCO" "CC=O" --target both
 ```
 
----
 
 ## Training Details
 
