@@ -34,7 +34,7 @@ This project implements a **4-model comparison framework** for molecular propert
 | **PaiNN (SchNetPack)** | Official library | E(3)-Equivariant | **25.5 mD** | **71.9 meV** |
 | *Literature PaiNN* | *Reference* | — | *12 mD* | *45.7 meV* |
 
-The central narrative: **geometric inductive biases matter, and so do implementation details.** PaiNN's vector dipole readout provides the right physics, but achieving paper-level accuracy requires careful attention to normalization, loss functions, charge neutrality, and initialization.
+The central narrative: **geometric inductive biases matter, and so do implementation details.** PaiNN's vector dipole readout provides the right physics, but achieving higher level accuracy requires careful attention to normalization, loss functions, charge neutrality, and initialization.
 
 ---
 
