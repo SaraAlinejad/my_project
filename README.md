@@ -40,21 +40,9 @@ The central narrative: **geometric inductive biases matter, and so do implementa
 
 ## Results
 
-### My Trained Models
+### My Trained Models against Literature Comparison — 
 
-
-
-### Comparison Table
-
-| Model | μ MAE | Δε MAE | Type |
-|---|---:|---:|---|
-| ★ PaiNN SchNetPack | **25.5 mD** | — | Equivariant |
-| ★ PaiNN SchNetPack | — | **71.9 meV** | Equivariant |
-| ★ PaiNN from scratch | 169.1 mD | — | Equivariant |
-
-
-
-### Literature Comparison — Dipole Moment (mD)
+### Dipole Moment (mD)
 
 | Model | MAE (mD) | Type |
 |-------|:--------:|------|
@@ -67,7 +55,7 @@ The central narrative: **geometric inductive biases matter, and so do implementa
 | TorchMD-NET (Thölke 2022) | 11 | Equivariant |
 | Equiformer (Liao 2023) | 11 | Equivariant transformer |
 
-### Literature Comparison — HOMO–LUMO Gap (meV)
+### HOMO–LUMO Gap (meV)
 
 | Model | MAE (meV) | Type |
 |-------|:---------:|------|
