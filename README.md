@@ -42,15 +42,15 @@ The central narrative: **geometric inductive biases matter, and so do implementa
 
 ### My Trained Models
 
-======================================================================
-FULL COMPARISON TABLE
-======================================================================
-Model                                    μ MAE     Δε MAE Type                
-──────────────────────────────────────────────────────────────────────
-★ PaiNN SchNetPack               25.5 mD          — equivariant         
-★ PaiNN SchNetPack                     —   71.9 meV equivariant         
-★ PAINN from-scratch            169.1 mD          — equivariant         
-──────────────────────────────────────────────────────────────────────
+
+
+### Comparison Table
+
+| Model | μ MAE | Δε MAE | Type |
+|---|---:|---:|---|
+| ★ PaiNN SchNetPack | **25.5 mD** | — | Equivariant |
+| ★ PaiNN SchNetPack | — | **71.9 meV** | Equivariant |
+| ★ PaiNN from scratch | 169.1 mD | — | Equivariant |
 
 
 
