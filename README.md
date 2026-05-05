@@ -357,6 +357,9 @@ python predict_molecule.py "O" "CCO" "CC=O" --target both
 | **Batch Size** | 100 | 100 | Paper default |
 
 ---
+### Training Curves
+
+![Training curves for PaiNN SchNetPack models](results_schnetpack/training_curves.png)
 
 ## Mathematical Details
 
