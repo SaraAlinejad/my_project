@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+*.egg-info/
+
+# Data and large generated outputs
+data/
+results/
+results_schnetpack/
+results_baselines/
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+
+# Logs
+*.log
+wandb/
+lightning_logs/
+
+# System/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Accidental folders/files
+glob
+matplotlib
+os
+pd
+sys
+torch
+splitting.lock

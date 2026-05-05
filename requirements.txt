@@ -1,0 +1,19 @@
+# Core ML
+torch
+torch_geometric
+torch_scatter
+torch_cluster
+
+# Chemistry
+rdkit
+
+# Data & Visualization
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+tqdm
+
+# Baselines (optional)
+lightgbm
