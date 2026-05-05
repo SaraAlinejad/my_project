@@ -1,0 +1,18 @@
+{
+  "model": "PaiNN (SchNetPack)",
+  "target": "dipole_moment",
+  "seed": 0,
+  "test_mae": 0.025515252724289894,
+  "test_mae_display": "25.5 mD",
+  "n_params": 642818,
+  "config": {
+    "F_dim": 128,
+    "n_interactions": 3,
+    "n_rbf": 20,
+    "cutoff": 5.0,
+    "batch_size": 100,
+    "lr": 0.0005,
+    "weight_decay": 0.01,
+    "epochs": 300
+  }
+}

@@ -1,0 +1,2 @@
+Model,Target,MAE (mD),RMSE (mD),R²,Params,Best Epoch
+PAINN,Dipole Moment μ,169.1,250.5,0.9720,"667,777",99
